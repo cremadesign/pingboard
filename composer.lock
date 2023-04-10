@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4563ab7af13b030130f0e3051839e485",
+    "packages": [
+        {
+            "name": "crema/fetcher",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cremadesign/fetcher",
+                "reference": "869b1a48f4f83f38e454d067b045515e7894e534"
+            },
+            "require": {
+                "crema/helpers": "@dev"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Crema\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Stephen Ginn",
+                    "email": "callaginn@users.noreply.github.com"
+                }
+            ],
+            "description": "PHP Curl Wrapper",
+            "time": "2023-04-10T20:20:49+00:00"
+        },
+        {
+            "name": "crema/helpers",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cremadesign/helpers",
+                "reference": "fc5c59c73af73dd9dce646282cffe323a642ce87"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Stephen Ginn",
+                    "email": "callaginn@users.noreply.github.com"
+                }
+            ],
+            "description": "PHP Helper Functions",
+            "time": "2023-04-10T19:08:52+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "crema/fetcher": 20,
+        "crema/helpers": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
